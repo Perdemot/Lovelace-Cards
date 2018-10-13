@@ -72,9 +72,6 @@ class WeatherBgCard extends LitElement {
   }
 
   setConfig(config) {
-    if (!config.url) {
-      throw new Error('You need to define a url');
-    }
     if (!config.weather) {
       throw new Error('You need to define weather');
     }
